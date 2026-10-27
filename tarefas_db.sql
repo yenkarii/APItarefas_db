@@ -10,5 +10,5 @@ concluido BOOL)
 
 SELECT * FROM tarefas;
 
-tarefas_dbINSERT INTO tarefas(nome, descricao, responsavel, data_tarefa, concluido) VALUES
+INSERT INTO tarefas(nome, descricao, responsavel, data_tarefa, concluido) VALUES
 ('Limpar o vaso', 'Ta fedendo a bosta faz 4 dias já', 'Igor Menezes Teruel', CURRENT_DATE, FALSE);
